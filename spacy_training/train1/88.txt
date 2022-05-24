@@ -1,0 +1,2 @@
+Following Instructions Written Result Satisfactory This test unit measures the ability to understand and follow a set of detailed written
+instructions and then select and implement the correct course of action 

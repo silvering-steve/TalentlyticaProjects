@@ -1,0 +1,4 @@
+Web Development Lessons nodesjs Desember 2021
+Hosted by anakteknikacademy and Progate Completed 4 Study and 1 Exercises on SQL course includes SQL fundamentals on the basis for manipulating
+databases Completed 4 Study and 3 Exercises on HTML CSS course includes HTML CSS Fundamentals Completed 7 Studies on JavaScript courses includes the fundamentals of JavaScript for web development
+Completed 6 Study on Nodejs course includes the basics of Nodejs for web application development 

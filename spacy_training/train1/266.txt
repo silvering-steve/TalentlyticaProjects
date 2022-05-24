@@ -1,0 +1,4 @@
+Conducted comprehensive research about the flow of the business process regarding the issuance of official business travel
+documents for the entire Bank Nagari system Formulated business process modeling notation probable use cases of interaction between the system and enduser sequence
+diagram of the business flow and structural database diagram using entity relationship diagram Explored viable options for features to be implemented in the designing of the user interface of the information system
+Designed a simple effective and efficient user interface for a better experience Conveyed a weekly report to the head of the IT Division about the progress of designing the information system 

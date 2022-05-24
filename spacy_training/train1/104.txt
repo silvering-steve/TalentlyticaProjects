@@ -1,0 +1,8 @@
+Halalbener Jakarta Indonesia February 2018 April 2020 Cofounded startup in the tourism industry specifically in Umrah and Hajj muslims
+pilgrimage in Indonesia  Me and 1 other cofounder
+managed to raise 150K seed funding to tackle the problems in Umrah and Hajj by
+building a platform to help muslims get their pilgrimage tour package with
+endtoend transparency and fair price My role was to develop the system from the
+ground up and help daytoday operations In terms of technology weve used PHP
+Laravel for the backend Vuejs for web frontend Kotlin for mobile apps
+PostgreSQL Google Cloud Platform Elastic and CentOS 7 

@@ -1,0 +1,3 @@
+PT Moonlay Technologies Business Analyst
+November 2014 December 2017 Responsibilities e Perform requirements gathering to obtain the needs and expectations of the User e Analyze current business process and providing solution for improvement based on information that obtain from
+requirement gathering e Create functional specification document or User Story containing business process and the detail logic of the application e Liaising with development team and providing relevant data and guidance for business improvements e Create test script and perform it in internal testing e Create User Manual document which guides User to use the application step by step e Collaborate with project manager and development team to identify root cause and solve issues 

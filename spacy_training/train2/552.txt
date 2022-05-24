@@ -1,0 +1,8 @@
+EXPERIENCES e Inventory Application
+Made a web inventory based application using php and MySQL database Travel Insurance Application
+Creat application for easier claim submission passengers using php and
+MySQL database Customers Shopping Reward
+Made a desktop application for shopping reward in dept store to provide
+employee in managing customers lottery Tech in Asia as Volunteer
+Responsibility to come as scheduled and on time carry out tasks efficiently
+and honestly 

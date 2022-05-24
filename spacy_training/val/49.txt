@@ -1,0 +1,3 @@
+Blacklist Application Enhancement Citibank
+November 2014 January 2015 This is a desktopbased application that compares customers marked as Blacklist from Bank Indonesia against Citibank
+Customer Application view All customers that possibly included in that Blacklist with the percentage of its possibility 

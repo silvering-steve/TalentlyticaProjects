@@ -1,0 +1,7 @@
+Develops a web app Jarvis for PT Telkomsel Indonesia
+from its backend to its frontend mainly focused on the
+implementation of Javascript GoogleMap API using
+ReactJs SemanticUl AntDesign NodeJs ExpressJs etc
+It is used to map and to monitor the condition of all BTS
+sitestowers throughout Banten DKI Jakarta and West
+Java 

@@ -1,0 +1,6 @@
+DigiMAPS team Telkom Indonesia Sep 2013 Aug 2015 2 years Digitalization of maternal and postnatal care system DigiMAPS is a system consist of electronic
+medical record for mother and children health KIA also for teleconsultation facility called TeleObgyn Our project focuses on the development of KIA Online and a cloud computing
+based video conferencing as a basis of TeleObgyn platform The webbased network allows online
+access not only among primary health care but also between government and private institution
+DigiMAPS platform is designed to meet the needs of database management and its interphase with
+other services that are responsible for data acquisition and visualization 

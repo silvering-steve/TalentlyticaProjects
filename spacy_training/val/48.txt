@@ -1,0 +1,4 @@
+IFROS Application Enhancement Citibank
+February 205 April 2016 This project is a desktop based application IFROS FXM Foreign Transaction Monitoring IFROS RTE required to be enhanced
+as an impact of changes in Indonesia Central Bank regulation regarding the LLD Lalu Lintas Devisa and RTE Rincian Transaksi
+Ekspor report 

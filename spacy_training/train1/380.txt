@@ -1,0 +1,9 @@
+PT MEDIATEK SOLUSINDO
+System Engineer Staff June 2019 now Provide data to be using as a broadcast Create and running mobile advertising campaign Ensure the campaign suitable to date and time wich has been
+specified Ensure the running log in server to discover the process are
+running successfully and check if any log errors Generate data from server to collect the amount of data that has
+been broadcasted Making daily report to collect the amount of success and failure
+on broadcast Checking disc server size Update of model type and variety handset on server Generate Model data GPRS and OTAP that has been update in
+server Modified data that has been updated
+Collect successfully updated data log
+Arrage monthly report from the update 

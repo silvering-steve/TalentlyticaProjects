@@ -1,0 +1,4 @@
+Check all project to run according to standards
+Identify functional module structure and logic of system
+Record of all QA report and documents Prepare weeklymonthly report on quality performace as
+instructed 

@@ -1,0 +1,3 @@
+My job description here are 1 Participate in sprint planning to discuss the product to be developed and
+ensure required in the product 2 Create test management in Jira using Xray and maintain the test cases
+3 Create Testplan and Testexecute to run the test cases 4 Ensure the product have no problems before being released to production 

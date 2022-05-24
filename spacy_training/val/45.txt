@@ -1,0 +1,2 @@
+Jakarta Fashion Week Dashboard Jakarta Fashion Week October November 2019 This project aims to build a web application and mobile application that will be used for booking tickets and show schedules in
+Jakarta Fashion Week This project also produces a dashboard that will be used as reference for business improvement 

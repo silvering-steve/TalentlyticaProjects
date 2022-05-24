@@ -1,0 +1,1 @@
+Project Data Analysis for FinancePerforma cabang Show data for 5 branches with the largest and smallest total amount Observe the relationship between the branch age and the total amount Look for branches with low performance in the age group Analyze lowperforming branches 

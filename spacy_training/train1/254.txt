@@ -1,0 +1,8 @@
+PROJECTS System Level Simulator Nanosatellite Design a system level simulator of satellite communication with ADS B
+reception as the mission including mission design antenna design and
+performance test using Matlab Software Defined Radio SDR Based ADSB Tracker Develop an Air Dependent Surveillance Broadcast ADS B signal
+reception system on Cubesat to receive ADSB signal from commercial
+alferatr Designed antenna using CST MWS and SDR as the receiver
+module Weather Satellite NOAA Tracker Develop an SDR based NOAA weather satellite signal reception system
+The data obtained in the form of sound which is then processed and
+decoded into an image of the earths image 

@@ -1,0 +1,10 @@
+Cari Pura Associated with Informatics Engineering University of Brawijaya
+Cari Pura is a native android app that was created for my thesis
+Cari Pura main features is to find the location of the nearest
+temple and its detailed information in the city of Malang This
+application is expected to facilitate the worship of Hindus in the
+city of Malang especially for new comer  Travello
+Associated with PT Infomedia Nusantara Travello is a native android app created to facilitate the business
+trip of PT Infomedia Nusantara employes This application
+consists of 2 main features namely travel requests and
+reimbursements  

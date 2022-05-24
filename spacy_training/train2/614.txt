@@ -1,0 +1,7 @@
+Learned the basics of programming using programming languages that are often used for data
+science such as R Python and SQL
+Programming languages discuss how to use software discusses more deeply about data
+science starting from data cleaning data manipulation and others
+All the material that you will get is projectbased specially prepared to reflect the existing
+project data in the FMCG Media and Financial Industries
+DQLAB has been worked on almost 60 of all existing modules 

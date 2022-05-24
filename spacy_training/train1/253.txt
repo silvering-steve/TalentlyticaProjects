@@ -1,0 +1,41 @@
+PUBLICATIONS Microstrip Antenna with Slotted Rectangular Truncated
+Corner Patch for ADSB Receiver on Cubesat 2020 httpwwwwarseorgIJATCSEstaticpdffile ijatcse37915sl2020pdf Automatic dependent surveillancebroadcast ADSB is an advanced
+technology for air traffic monitoring Using frequency of 1090 MHz ADS
+B transponder transmit aircraft identity altitude speed position and
+other information periodically to ground station Nanosatellite
+Laboratory of Telkom University develops TelUSat 2 a CubeSat with
+ADSB signal receiver as the mission in purpose to expand the scope of
+its signal reception This paper presents a rectangular truncated corner
+microstrip antenna for ADSB receiver on a nanosatellite with center
+frequency of 1090 MHz Voltage Standing Wave Ratio VSWR 115 with
+bandwidth of 115 MHz in the frequency range of 1086 10975 MHz
+unidirectional radiation pattern circular polarization with axial ratio 289 dB antenna gain 422 dBi and able to receive ADSB signals from
+aircraft with furthest detected distances of 32017 Km ADSB Microstrip Antenna Receiver Design for Cubesat with
+Slot 2019  Nanosatellite is one of several satellite classes that have a size that
+generally refers to the standardization of cubesat which is 10x10x10 cm
+3 Nowadays nanosatellite is widely developed for various purposes
+such as air traffic monitoring using Automatic Dependent Surveillance
+Broadcast ADSB receiver as the mission Telkom University and the
+nanosatellite Laboratory are researching ADSB on nanosatellite The
+nanosatellite uses a frequency of 1090 MHz which functions as ADSB
+receiver and air traffic control as the primary mission This paper
+presents a microstrip antenna design for nanosatellite with the mission
+as ADSB signals receiver the antenna has voltage standing wave ratio
+VSWR 19 in the frequency of 1090 MHz Then have unidirectional as
+the radiation pattern and right hand circular polarization RHCP as the
+polarization gain 102 dB 52 MHz bandwidth and range is 189 km An Investigation of RTOS Based Sensor Data Management
+Performance for Tel USat On Board Data Handling OBDH
+Subsystem 2019  Nanosatellite is one of satellite technology that can now be developed
+by various types of circles one of which is in university scaled Currently
+Telkom University is developing nanosatellite for research purpose
+Nanosatellite system can be run with the support of several subsystems
+One of the subsystems is On Board Data Handling OBDH as the main
+control The presence OBDH subsystem is for processing system data
+such as get the housekeeping data parameters to monitoring and
+determine the nanosatellite health system The parameters consist of
+temperature gyroscope orientation and magnetic sensing In TelUSat
+the On Board Data Handling by using 32bit ARM Cortex M3 as main
+controller with several sensors to collect the parameters data To
+support the running of reliable system process Real Time Operating
+System RTOS can be applied to manage a lot of tasks with the concept
+of multitasking and fast processing time 

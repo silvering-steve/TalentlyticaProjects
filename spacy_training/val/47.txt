@@ -1,0 +1,4 @@
+This project aims to build a web application that will be used to monitor all business process in Dan Liris Module e Application for Finishing Printing Garment Division to record production process and monitoring actual condition of
+machine e Application for Finance to track all documents required to be verified before continue to payment process and record all
+bank Transaction e Procurement Application to track and record production process and monitoring actual condition of machine in
+Finishing and Printing area as a part of textile factory 

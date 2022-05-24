@@ -1,0 +1,1 @@
+Carry out test on applications devices or system according to the scenario that has been designed with reference to the Solution Design Document SDD Making documentation reports of the test result SIT and UAT 

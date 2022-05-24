@@ -1,0 +1,2 @@
+Identifying product depects or potentlal Isues and determining analyzes the results of lab or usability
+test to identify these defects and make sure they do not persist throghout the manufacturing process 

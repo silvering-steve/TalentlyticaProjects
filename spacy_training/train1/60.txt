@@ -1,0 +1,3 @@
+Central Bureau of Statistics Bogor District
+Data Entry Operator Nov 2020 Dec 2020 Input the population census data of Bogor regency into the system Double check the data on the paper with the data that is already in
+the system Input data according to the target specified in a month Report completed input to the person in charge 

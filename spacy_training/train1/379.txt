@@ -1,0 +1,3 @@
+Ensure the office network already connected with the Indonesia
+Stock Exchange server Daily backup data and logout so the data not reenter to the
+trade market on the next day Ensure the communication data log active Backup market communication data log Making troubleshooting 

@@ -1,0 +1,3 @@
+New eStatement Bank Mandiri May 2020 Present This project aims to implement new eStatement system and Campaign Management System to replace the existing
+system Current estatement and Campaign Management System are maintained in several different systems Also this
+new eStatement aims to consolidate Statement in one statement if particular Customer have more than one account 

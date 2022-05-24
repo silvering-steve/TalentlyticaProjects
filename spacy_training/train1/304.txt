@@ -1,0 +1,4 @@
+BPHTB Elektronifikasi Bea Pajak atas Tanah dan Bangunan httpebphtbkarokabgoid Information system that aims to administer local taxes in the transfer of land and buildings buying and
+selling inheritance Maintain existing code perform analysis and code solutions for identified bugs and feature enhancements
+eBphtb uses banking services namely the BRI virtual account BRIVA in receiving payments from taxpayers
+Information integration of the ministry of ATRBPN Perform system maintenance and attend to any enquire due to support uO Vv VV 

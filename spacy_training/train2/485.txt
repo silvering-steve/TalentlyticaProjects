@@ -1,0 +1,1 @@
+Project Data Analysis for B2B RetailCustomer Analytics Report F calculate the percentage of overall sales calculation of sales growth and revenue is the number of buyers increasing how many buyers have made transactions what product categories were most ordered by buyers in quarter2 how many buyers still active transacting after the first transaction 

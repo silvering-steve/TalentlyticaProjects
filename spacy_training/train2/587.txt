@@ -1,0 +1,4 @@
+Kudo Kids
+Associated with PT Taksu Teknologi Indonesia Kudo Kids is a mobile app built using Flutter Kudo Kids is a social
+media for parents of a kindergarten this app allows parents to
+know the upcoming events and connect with other parents 
