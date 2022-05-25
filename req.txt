@@ -1,5 +1,5 @@
 spacy
-spacy-transformer
+spacy-transformers
 wheel
 flask
 django
@@ -8,13 +8,9 @@ numpy
 tensorflow
 pandas
 matplotlib
-glob
+glob2
 scikit-learn
 pillow
-en-core-web-sm
-torch
-tesseract
-tesseract-ocr
 sklearn
 requests
 PyMuPDF

@@ -1,27 +1,18 @@
 import os
 import re
 import fitz # install
-import glob
 import nltk
 import glob
 import cv2 # install
-import spacy # install
+import easyocr
 import spacy.cli
-from spacy.language import Language
-from spacy_langdetect import LanguageDetector
-import easyocr # install
-# import pytesseract // optional
-import numpy as np # install
 import textseg as ts
-from spacy import displacy
 from PyPDF2 import PdfFileReader # install
 from pdf2image import convert_from_path # install
 
 # nltk.download('punkt') # 1st run
 # nltk.download('stopwords') # 1st run
 # spacy.cli.download("en_core_web_lg") # 1st run
-
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe' #tesseract.exe location in your computer // optional
 
 # SKILLS EXTRACTION
 # Add skills database from a file
@@ -98,11 +89,6 @@ def convert_pdf_to_image(filepath,img_path_to_save):
     except Exception as e:
         return {"status":400,"response":str(e)}
 
-# Extract text from a png // optional
-# def text_from_tesseract(output_img):
-#     text = str(((pytesseract.image_to_string(output_img))))
-#     return text
-
 def text_from_easyocr(img, reader):
     all_text = ""
     result = reader.readtext(img)
@@ -114,7 +100,7 @@ def text_from_easyocr(img, reader):
 
 
 # Segment and then extract the data from a resume
-def segment_extract_data(data,  path_to_write, reader, singleFile=True):
+def segment_extract_data(data,  path_to_write, reader=None, singleFile=True):
     documents = [] # file path nya untuk pdf
 
     if singleFile:
@@ -124,15 +110,10 @@ def segment_extract_data(data,  path_to_write, reader, singleFile=True):
 
     final_name_list=[] # nama file
     final_text_opencv=[] # text dengan segmen
-    # final_text_tessaract=[]
     final_text_easyocr=[] # semua text tanpa segmen
     for i in documents:
         pdf = PdfFileReader(open(i,'rb'))
         fname = i.split('/')[-1]
-
-        # if pdf.getNumPages() > 3:
-        #     print('Pages to many : {}!, Skipping...'.format(pdf.getNumPages()))
-        #     continue
 
         images = convert_from_path(i)
         resumes_img=[]
@@ -142,7 +123,6 @@ def segment_extract_data(data,  path_to_write, reader, singleFile=True):
             resumes_img.append(path_to_write+fname.split('.')[0]+'_'+ str(j) +'.jpg')
         name_list = fname.split('.')[0]+'_' +'.jpg'
         text_opencv=[]
-        # text_tessaract=[]
         text_easyocr=[]
         for i in resumes_img:
             frame=cv2.imread(i)
@@ -155,14 +135,11 @@ def segment_extract_data(data,  path_to_write, reader, singleFile=True):
                 cv2.imwrite(path_to_write+img.split('.')[0]+str(i)+".png", split_img[i])
 
             text_opencv.append(c_dict)
-            # text_tessaract+=text_from_tesseract(output_img)
-            # tesseract_str = ''.join(text_tessaract)
             text_easyocr+=text_from_easyocr(output_img, reader)
             easyocr_str = ''.join(text_easyocr)
 
         final_name_list.append(name_list)
         final_text_opencv.append(text_opencv)
-        # final_text_tessaract.append(tesseract_str)
         final_text_easyocr.append(easyocr_str)
 
     return final_text_opencv, final_name_list, final_text_easyocr
@@ -185,7 +162,7 @@ def extract_exp(textList, nlp):
     return exp
 
 # Do all the above with just 1 function
-def extract_data(filePath, skills, nlp, temp_path, reader):
+def extract_data(filePath, skills, nlp, temp_path, reader=None):
     file_data = {'File': "", 'Skills':"", "Exp":""}
 
     textList, fileName, fullText = segment_extract_data(filePath, temp_path, reader)
@@ -215,7 +192,17 @@ if __name__ == '__main__':
     temp_path = ('./segmentation/')
 
     # Load the machine learning model for exp classification
-    nlp = spacy.load('model_best')
+    nlp = spacy.load('model/model_exp')
+
+    # Reader for OCR
+    reader = easyocr.Reader(['en'])
+
+    # File location
+    filepath = input("File Path : ")
 
     # Get the filename, skills, exp
-    data = extract_data('ini di ganti', skills, nlp, temp_path)
+    data = extract_data(filepath, skills, nlp, temp_path, reader)
+
+    # Print data
+    print(data)
+

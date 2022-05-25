@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 import math
 import pytesseract
+import easyocr
 from PIL import Image
 import json
 import uuid
@@ -182,8 +183,17 @@ def get_text_seg(frame, image):
     #return(output_img,label,dilate, mask)
 
 
-def image2text(image):
-    return pytesseract.image_to_string(image)
+# def image2text(image):
+#     return pytesseract.image_to_string(image)
+
+def image2text(img, reader):
+    all_text = ""
+    result = reader.readtext(img)
+
+    for (bbox, text, prob) in result:
+        all_text += text + " "
+
+    return all_text
 
 
 def get_text_image(text_data:dict)->np.ndarray:
@@ -229,12 +239,13 @@ def get_text_image(text_data:dict)->np.ndarray:
 
 
 def ocr(orig):
-    
+    reader = easyocr.Reader(['en'])
+
     # c = count
     # image = image_name
-    text_image= cv2.resize(get_text_image({"text":image2text(orig)}), (512, 512))
+    text_image= cv2.resize(get_text_image({"text":image2text(orig, reader)}), (512, 512))
     
-    text_image_1=image2text(orig)
+    text_image_1=image2text(orig, reader)
     
     # with open ('txt_converted/'+image.split('.')[0]+'.txt','a+') as f:
         
