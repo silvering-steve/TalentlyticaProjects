@@ -3,7 +3,6 @@ spacy-transformers
 flask
 easyocr
 numpy
-tensorflow
 pandas
 glob2
 sklearn
