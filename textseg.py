@@ -1,7 +1,6 @@
 import numpy as np
 import cv2
 import math
-import pytesseract
 import easyocr
 from PIL import Image
 import json
