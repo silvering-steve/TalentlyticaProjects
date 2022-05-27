@@ -238,7 +238,7 @@ def get_text_image(text_data:dict)->np.ndarray:
 
 
 def ocr(orig):
-    reader = easyocr.Reader(['en'])
+    reader = easyocr.Reader(['en'], gpu=False)
 
     # c = count
     # image = image_name

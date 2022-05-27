@@ -3,6 +3,7 @@ import re
 import fitz # install
 import nltk
 import glob
+import firebase_test
 import cv2 # install
 import easyocr
 import spacy.cli
@@ -55,7 +56,7 @@ def extract_skills(input_text, skills_data):
         if ngram in skills_data:
             skills.add(ngram)
 
-    return skills
+    return list(skills)
 
 # Extract skills from a single file
 def extract_single_skills(filePath, skills):
@@ -197,12 +198,19 @@ if __name__ == '__main__':
     # Reader for OCR
     reader = easyocr.Reader(['en'])
 
+    # Database variable
+    cred = "firebase/lexical-micron-342010-firebase-adminsdk-ggtjz-2211d8aed1.json" # Ganti
+    database_url = 'https://lexical-micron-342010-default-rtdb.asia-southeast1.firebasedatabase.app/' # Ganti
+    database_path = '/' # Ganti
+
+    # Database object
+    ref = firebase_test.fire_database(cred, database_url, database_path)
+
     # File location
     filepath = input("File Path : ")
 
     # Get the filename, skills, exp
     data = extract_data(filepath, skills, nlp, temp_path, reader)
 
-    # Print data
-    print(data)
-
+    # Database upload
+    firebase_test.set_data(ref, data)

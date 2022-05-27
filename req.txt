@@ -12,3 +12,4 @@ PyMuPDF
 PyPDF2
 opencv-python
 nltk
+firebase_admin

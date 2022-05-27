@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\sample\train.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\spacy_training\exp_train.csv">
           <value>
             <Attribute>
