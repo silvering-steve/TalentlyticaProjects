@@ -11,5 +11,9 @@ requests
 PyMuPDF
 PyPDF2
 opencv-python
+pdf2image
 nltk
+tensorflow
+matplotlib
 firebase_admin
+python-firebase
